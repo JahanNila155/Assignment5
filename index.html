@@ -27,7 +27,7 @@
 </head>
 <body>
     <!-- header section starts here  -->
-    <header class="container mx-auto lg:py-12">
+    <header class="container mx-auto lg:py-12 lg:px-24 py-4">
         <nav>
             <div class="navbar bg-base-100">
                 <div class="navbar-start">
@@ -36,45 +36,83 @@
                       <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                     </div>
                     <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                      <li><a>Item 1</a></li>
-                      <li>
-                        <a>Parent</a>
-                        <ul class="p-2">
-                          <li><a>Submenu 1</a></li>
-                          <li><a>Submenu 2</a></li>
-                        </ul>
-                      </li>
-                      <li><a>Item 3</a></li>
+                      <li><a>Home</a></li>
+                      <li><a>About</a></li>
+                      <li><a>Destination</a></li>
+                      <li><a>Search</a></li>
                     </ul>
                   </div>
-                  <a class="btn btn-ghost text-xl">E-Ticket</a>
+                  <a class="btn btn-ghost text-4xl font-[Raleway] font-extrabold text-[rgb(3, 7, 18)]">E-Ticket</a>
                 </div>
                 <div class="navbar-center hidden lg:flex">
-                  <ul class="menu menu-horizontal px-1">
-                    <li><a>Item 1</a></li>
-                    <li>
-                      <details>
-                        <summary>Parent</summary>
-                        <ul class="p-2">
-                          <li><a>Submenu 1</a></li>
-                          <li><a>Submenu 2</a></li>
-                        </ul>
-                      </details>
-                    </li>
-                    <li><a>Item 3</a></li>
+                  <ul class="menu menu-horizontal px-1 text-[rgba(3, 7, 18, 0.7)] text-xl font-[Raleway] font-medium">
+                    <li><a>Home</a></li>
+                    <li><a>About</a></li>
+                    <li><a>Destination</a></li>
+                    <li><a>Search</a></li>
                   </ul>
                 </div>
                 <div class="navbar-end">
-                  <a class="btn">Button</a>
+                  <div class="flex">
+                    <a class="btn box-border rounded-xl bg-[#1dd1001a] border-green-400 px-[25px] py-[16px] w-[130px] h-[56px] text-green-400 font-[Raleway] font-bold text-xl">Bus <img class="flex" src="images/bus-icon.png" alt="bus-icon"></a>
+                  </div>
                 </div>
               </div>
         </nav>
+        <!-- nav section end  -->
+        <!-- hero section starts here  -->
+      <section class="container mx-auto mt-[30px]">
+        <div class="relative">
+          <div class="hero min-h-screen rounded-[32px]" style="background-image: url(images/banner.png);">
+            <div class="hero-overlay rounded-[32px] "></div>
+            <div class="hero-content text-center text-neutral-content">
+              <div class="max-w-md">
+                <h1 class="mb-5 text-[64px] font-[Raleway] font-extrabold lg:w-[742px] text-white ml-[-120px] mt-[70px]">End-to-End Travel with <br><span class="text-[#1dd100]">P Paribahan</span></h1>
+                <p class="mb-5 w-[691px] h-[60px] mt-[16px] ml-[-100px] font-[Inter] text-lg font-normal text-white">Yes, you can run unit tests and view the results directly within the app. The <br>integrated testing features allow for a streamlined .</p>
+                <button class="btn bg-[#1dd100] mt-[32px] w-[170px] h-[65px] border-none font-[Raleway] font-bold text-xl px-[30px] py-[21px]">Buy Tickets</button>
+              </div>
+            </div>
+        </div>
+        <div class="absolute flex flex-row justify-items-stretch mx-[100px] gap-[23px] lg:-translate-y-[90px] lg:translate-x-[90px]">
+          <div class="card w-[308px] h-[138px] bg-base-100 shadow-xl  border-none rounded-3xl border-b-[3px solid #1dd100]">
+            <div class="card-body flex flex-row justify-items-stretch gap-3">
+              <img src="images/people.png" class="w-[48px] h-[48px]" alt="people"> 
+              <div class="card-text flex flex-col">
+              <h2 class="card-title font-[Inter] font-bold text-4xl">500K+</h2>
+              <p class="font-[Inter] font-normal text-lg py-2">Registered users</p>
+              </div>
+            </div>
+          </div>
+          <div class="card w-[308px] h-[138px] bg-base-100 shadow-xl border-none rounded-3xl border-b-[3px solid#1dd100]">
+            <div class="card-body flex flex-row justify-items-stretch gap-3">
+              <img src="images/ticket-cupon.png" class="w-[48px] h-[48px]" alt="ticket-cupon"> 
+              <div class="card-text flex flex-col">
+              <h2 class="card-title font-[Inter] font-bold text-4xl">1.7 lacks</h2>
+              <p class="font-[Inter] font-normal text-lg py-2">Tickets sold</p>
+              </div>
+            </div>
+          </div>
+          <div class="card w-[308px] h-[138px] bg-base-100 shadow-xl border-none rounded-3xl border-b-[3px solid #1dd100]">
+            <div class="card-body flex flex-row justify-items-stretch gap-3">
+              <img src="images/stoppage.png" class="w-[48px] h-[48px]" alt="stoppage"> 
+              <div class="card-text flex flex-col">
+              <h2 class="card-title font-[Inter] font-bold text-4xl">80K+</h2>
+              <p class="font-[Inter] font-normal text-lg py-2">Rental partners</p>
+              </div>
+            </div>
+          </div>
 
-    </header>
-    <!-- header section end   -->
-    <main>
+        </div>
+      </section>
+      <!-- hero section end  -->
+      </header>
+      <!-- header section end  -->
+      <main>
 
-    </main>
+      </main>
+
+
+
     <footer>
 
     </footer>
