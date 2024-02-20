@@ -382,13 +382,13 @@
 
                         <div>
                             <label for="" class="text-[16px] font-[Inter] font-semibold">Phone Number*</label>
-                            <input id="passenger-number" type="text" placeholder="Enter your phone number"
+                            <input id="passenger-number" type="number" placeholder="Enter your phone number"
                                 class="input input-bordered w-full mt-4" />
                         </div>
 
                         <div>
                             <label for="" class="text-[16px] font-[Inter] font-semibold">Email ID</label>
-                            <input type="text" placeholder="Enter your email"
+                            <input type="email" placeholder="Enter your email"
                                 class="input input-bordered w-full mt-4" />
                         </div>
                     </div>
@@ -396,7 +396,7 @@
                     <!-- success notification -->
                     <!-- Open the modal using ID.showModal() method -->
                     <button disabled id="next-btn"
-                        class="btn btn bg-[#1DD100] w-full rounded-xl text-white text-xl font-bold "
+                        class="btn btn-[#1DD100] w-full rounded-xl text-white text-xl font-bold "
                         onclick="my_modal_5.showModal()">Next</button>
                     <dialog id="my_modal_1" class="modal">
                         <div class="modal-box text-center ">
@@ -428,14 +428,57 @@
         </div>
 
       </section>
+      <!-- seat booking section ends  -->
       </section>
-
+       <!-- ticket booking and seat booking end  -->
       </main>
 
+     <!-- footer section starts here  -->
+    <footer class="footer p-10 bg-neutral text-neutral-content bg-black">
+      
+      <section class="container mx-auto lg:px-24 py-8 pb-20">
 
+        <div class="flex flex-col lg:flex-row justify-between w-full items-center space-y-12 ">
 
-    <footer>
+            <!-- left part -->
+            <div class="space-y-4">
+                <h3 class="text-4xl font-[Raleway] font-extrabold text-white">E.H Paribahan</h3>
+                <p class="text-lg font-[Inter] font-normal text-gray-300"> E-Ticket is a digital platform to make your <br> daily commuting better.</p>
+            </div>
+            <!-- right part-->
+            <div class="space-y-3">
+                <p class="text-[20px] font-[Raleway] font-semibold">Download our app</p>
 
+                <div class="flex  items-center gap-3 border-2 p-2 w-[189px] h-[58px] rounded-xl">
+                  <div class=""> 
+                    <img src="images/playstore.png" alt="">
+                  </div>
+                  <div>
+                    <p class="text-[16px]">Get it on</p>
+                    <p class="font-semibold text-[20px]">Google Play</p>
+                  </div>
+                </div>
+            </div>
+        </div>
+
+        <hr class="border-dashed border-gray-300 h-0  my-2 w-full self-center">
+
+        <div class="flex flex-col lg:flex-row justify-between w-full items-center space-y-12 ">
+
+            <!-- left part-->
+            <div class="space-y-4">
+                <p> @all rights reserved, R-Ticket services limited.2024</p>
+            </div>
+            <!-- right part-->
+
+            <div class="flex gap-8 text-white">
+                <p>Terms & condition</p>
+                <p>Return & refund policy</p>
+                <p>Privacy policy</p>
+            </div>
+        </div>
+    </section>
+     <!-- footer section end   -->
     </footer>
 
     <!-- js link  -->
